@@ -1,0 +1,33 @@
+{
+  "name": "devdocs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing DevDocs docsets to AI agents, token-efficiently",
+  "type": "module",
+  "bin": {
+    "devdocs-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "test": "vitest run",
+    "smoke": "tsx scripts/smoke.ts"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "cheerio": "1.2.0",
+    "turndown": "7.2.4",
+    "turndown-plugin-gfm": "1.0.2",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "26.5.1",
+    "@types/turndown": "5.0.6",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  }
+}

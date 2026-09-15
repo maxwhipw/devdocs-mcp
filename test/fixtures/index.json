@@ -1,0 +1,12 @@
+{
+  "entries": [
+    { "name": "defineConfig", "path": "config/index#defineconfig", "type": "Config" },
+    { "name": "Configuring Vite: Config Intellisense", "path": "config/index#config-intellisense", "type": "Config" },
+    { "name": "Config", "path": "config/index", "type": "Config" },
+    { "name": "Build Options: Config", "path": "config/build-options", "type": "Build Options" },
+    { "name": "defineWorkspace", "path": "config/workspace", "type": "Config" },
+    { "name": "resolve.alias", "path": "config/shared-options#resolve-alias", "type": "Shared Options" },
+    { "name": "Unrelated topic", "path": "guide/index", "type": "Guide" }
+  ],
+  "types": [{ "name": "Config", "count": 5, "slug": "config" }]
+}
