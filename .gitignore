@@ -1,3 +1,7 @@
 node_modules/
 dist/
 *.log
+
+# Internal planning/handoff docs — kept local, not published
+PLAN.md
+HANDOFF.md
